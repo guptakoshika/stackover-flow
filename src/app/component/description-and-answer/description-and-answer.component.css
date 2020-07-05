@@ -12,3 +12,27 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.arrow-up , .arrow-down{
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+.arrow-up {
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 25px solid #BBC0C4;
+  }
+
+
+.arrow-down {
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 25px solid #BBC0C4;
+  }
+
+.outer-container{
+    display: flex;
+    flex-direction: row;
+}

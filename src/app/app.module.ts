@@ -13,6 +13,7 @@ import { DescriptionAndAnswerComponent } from './component/description-and-answe
 import { CommentComponent } from './component/comment/comment.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './component/login/login.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { LoginComponent } from './component/login/login.component';
   imports: [
     BrowserModule,
     FormsModule,
+    CommonModule,
     AppRoutingModule,
     HttpClientModule
   ],
