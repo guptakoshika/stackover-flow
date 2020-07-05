@@ -1,0 +1,12 @@
+.container{
+margin-top: 80px;
+margin-left: 15%;
+margin-right: 13%;
+}
+
+label{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 23px;
+    color: #242729;
+    font-size: 18px;
+}

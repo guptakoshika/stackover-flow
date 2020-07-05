@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "question_id" : 1,
+        "type" : "description",
+        "text" : "I have gone through multiple video tutorials on YouTube for MEAN, I have got enough theoretical knowledge but not able to decide what type of project will be good for me to develop a good and practical understanding in this language.\n\ncan you guys please help me with deciding this?\n\nThanks in advance.",
+        "vote_point": -3
+    },
+    {
+        "id" : 2,
+        "question_id" : 1,
+        "type" : "answer",
+        "text" : "For just angularjs, just follow learn tutorial from the official documentation, The PhoneCat App.\n\nhttps://docs.angularjs.org/tutorial \n\nto use mongo and nodejs with it, create a login application by yourself, learn to create API's in node and consume in angularjs",
+        "vote_point": 0
+    },
+    {
+        "id" : 3,
+        "question_id" : 1,
+        "type" : "answer",
+        "text" : "This article 40 Side Project Ideas for Software Engineers by Tash Postolovski should help.\n\nhttps://www.codementor.io/npostolovski/40-side-project-ideas-for-software-engineers-g8xckyxef",
+        "vote_point": 0
+    }
+]

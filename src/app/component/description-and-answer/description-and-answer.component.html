@@ -1,0 +1,7 @@
+<!-- <div dangerouslySetInnerHTML={{__html: answers[0].text}}></div> -->
+<p>{{answers.length}}</p>
+<li class= "container" *ngFor=" let answer of (answers)" >
+    <div>
+      <p class="text">{{answer.text}}</p>
+    </div>  
+</li>

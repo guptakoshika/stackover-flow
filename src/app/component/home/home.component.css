@@ -1,0 +1,26 @@
+.container{
+    margin-left: 318px;
+    margin-right: 339px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.inner-container{ 
+    padding: 3%;
+    margin-left: 170px;
+}
+
+.question-text{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 36px;
+    color: #3c4146;
+    font-size: 27px;
+}
+
+.question-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 1px 1px #E5E5E5;
+    margin-left: 3px;
+}
