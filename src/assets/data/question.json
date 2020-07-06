@@ -1,33 +1,4 @@
 {
    "id":1,
-   "text":"What type of projects can I do in MEAN (Angular JS) for developing a good understanding in the language?",
-   "description":{
-      "id":1,
-      "question_id":1,
-      "type":"description",
-      "text":"I have gone through multiple video tutorials on YouTube for MEAN, I have got enough theoretical knowledge but not able to decide what type of project will be good for me to develop a good and practical understanding in this language.\n\ncan you guys please help me with deciding this?\n\nThanks in advance.",
-      "vote_point":-3,
-      "comments":[
-         {
-            "id":1,
-            "desp_id":1,
-            "text":"which language ?"
-         },
-         {
-            "id":2,
-            "desp_id":1,
-            "text":"MEAN (Mongodb, Express, AngularJS, NodeJS)."
-         },
-         {
-            "id":2,
-            "desp_id":1,
-            "text":"Stack Overflow isn't place for such type of questions. But MEAN can be used for many different projects, do a search of web apps built using this stack and try to make simply replica of it."
-         },
-         {
-            "id":2,
-            "desp_id":1,
-            "text":"just start one by one, read my answer first learn angularjs from official documentation tutorial , there they have a full application, it'll cover everthing from angularjs"
-         }
-      ]
-   }
+   "text":"What type of projects can I do in MEAN (Angular JS) for developing a good understanding in the language?"
 }

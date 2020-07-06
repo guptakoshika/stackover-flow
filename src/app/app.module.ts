@@ -10,13 +10,10 @@ import { EditorComponent } from './component/editor/editor.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { YourAnswerComponent } from './component/your-answer/your-answer.component';
 import { DescriptionAndAnswerComponent } from './component/description-and-answer/description-and-answer.component';
-import { CommentComponent } from './component/comment/comment.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './component/login/login.component';
 import { CommonModule } from '@angular/common';
-import { AnswerComponent } from './answer/answer.component';
-import { LinebreakerPipe } from './linebreaker.pipe';
-import {Nl2BrPipeModule} from 'nl2br-pipe';
+import { AnswerComponent } from './component/answer/answer.component';
 
 @NgModule({
   declarations: [
@@ -29,17 +26,14 @@ import {Nl2BrPipeModule} from 'nl2br-pipe';
     FooterComponent,
     YourAnswerComponent,
     DescriptionAndAnswerComponent,
-    CommentComponent,
     AnswerComponent,
-    LinebreakerPipe
   ],
   imports: [
     BrowserModule,
     FormsModule,
     CommonModule,
     AppRoutingModule,
-    HttpClientModule,
-    Nl2BrPipeModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
