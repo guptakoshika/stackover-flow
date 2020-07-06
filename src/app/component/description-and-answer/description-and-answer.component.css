@@ -1,16 +1,18 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 1px 1px #E5E5E5;
+    padding: 2%;
 }
 
-.text{
+.text-container{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 20px;
     color: #242729;
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 15px;
+    box-shadow: 1px 1px #E5E5E5;
 }
 
 .arrow-up , .arrow-down{
@@ -32,7 +34,17 @@
     border-top: 25px solid #BBC0C4;
   }
 
-.outer-container{
+.vote-container{
     display: flex;
     flex-direction: row;
+    margin-right : 10px;
+}
+
+.comments-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-container{
+    padding-bottom: 30px;
 }

@@ -1,36 +1,14 @@
-<!-- <div class = "outer-container">
-<div>
-  <div class="arrow-up"></div>
-  <p>{{description[0].vote_point}}</p>
-  <div class="arrow-down"></div>
-</div>
-<p>{{description[0].text}}</p>
-</div>
-<li class= "container" *ngFor=" let comment of (comments)" >
-  <div>
-    <p class="text">{{comment.text}}</p>
-  </div>  
-</li>
-<a> Add Comment</a>
-<p>{{answers.length}} Answers</p>
-<li class= "container" *ngFor=" let answer of (answers)" >
-    <div>
-      <p class="text">{{answer.text}}</p>
-    </div>  
-</li> -->
-
 <div class= "container" *ngFor=" let answer of (answers)" >
-  <div class="outer-container">
+  <div class="vote-container">
     <div>
-      <div class="arrow-up"></div>
+      <div (click) = "vote(answer,1)" class="arrow-up"></div>
       <p>{{answer.vote_point}}</p>
-      <div class="arrow-down"></div>
+      <div (click) = "vote(answer,-1)" class="arrow-down"></div>
     </div>
-    <p>{{answer.text}}</p>
-  </div>
-    <li class= "container" *ngFor=" let comment of (comments)" >
-      <div *ngIf = "comment.parentId == answer.id">
-        <p class="text">{{comment.text}}</p>
-      </div> 
-  </li>
-  </div>
+    <div>
+      <p class="text-container description-container">{{answer.text}}</p>
+      <li class= "comments-container" *ngFor=" let comments of (answer.comments)" >
+          <p class="text-container">{{comments.text}}</p>
+    </li>
+</div>
+  

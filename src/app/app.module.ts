@@ -14,6 +14,9 @@ import { CommentComponent } from './component/comment/comment.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './component/login/login.component';
 import { CommonModule } from '@angular/common';
+import { AnswerComponent } from './answer/answer.component';
+import { LinebreakerPipe } from './linebreaker.pipe';
+import {Nl2BrPipeModule} from 'nl2br-pipe';
 
 @NgModule({
   declarations: [
@@ -26,14 +29,17 @@ import { CommonModule } from '@angular/common';
     FooterComponent,
     YourAnswerComponent,
     DescriptionAndAnswerComponent,
-    CommentComponent
+    CommentComponent,
+    AnswerComponent,
+    LinebreakerPipe
   ],
   imports: [
     BrowserModule,
     FormsModule,
     CommonModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    Nl2BrPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
