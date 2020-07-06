@@ -1,12 +1,12 @@
 .container{
-    margin-left: 318px;
-    margin-right: 339px;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 60px;
     display: inline-flex;
     flex-direction: row;
 }
 
 .inner-container{ 
-    margin: 3%;
     margin-left: 170px;
 }
 
@@ -19,7 +19,6 @@
 }
 
 .question-container{
-    margin: inherit;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

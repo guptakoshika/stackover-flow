@@ -2,7 +2,16 @@
     height: 100%;
     width: 164px;
     position: absolute;
-    top: 50px;
     background-color: #FFFFFF;
-    box-shadow: 1px 1px #E5E5E5;
+    box-shadow: 1px 0px 0px #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 23px;
+    font-size: 13px;
   }
+  
+.links{
+  width: 100%;
+  padding: 3%;
+}
