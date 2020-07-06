@@ -1,4 +1,4 @@
-<div class= "container" *ngFor=" let answer of (answers)" >
+<div class= "container" *ngFor="let answer of answers; index as i; trackBy: trackBy" >
   <div class="vote-container">
     <div>
       <div (click) = "vote(answer,1)" class="arrow-up"></div>
@@ -7,8 +7,9 @@
     </div>
     <div>
       <p class="text-container description-container">{{answer.text}}</p>
-      <li class= "comments-container" *ngFor=" let comments of (answer.comments)" >
+      <li class= "comments-container" *ngFor=" let comments of (answer.comments);  trackBy:trackBy" >
           <p class="text-container">{{comments.text}}</p>
     </li>
+    <p>Add comment</p>
 </div>
   

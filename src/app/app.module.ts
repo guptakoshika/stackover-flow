@@ -13,7 +13,6 @@ import { DescriptionAndAnswerComponent } from './component/description-and-answe
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './component/login/login.component';
 import { CommonModule } from '@angular/common';
-import { AnswerComponent } from './component/answer/answer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +25,6 @@ import { AnswerComponent } from './component/answer/answer.component';
     FooterComponent,
     YourAnswerComponent,
     DescriptionAndAnswerComponent,
-    AnswerComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +33,9 @@ import { AnswerComponent } from './component/answer/answer.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    DescriptionAndAnswerComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

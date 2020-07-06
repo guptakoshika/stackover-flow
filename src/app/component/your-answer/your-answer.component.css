@@ -4,11 +4,13 @@ margin-left: 15%;
 margin-right: 13%;
 }
 
-label{
+.label{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 23px;
     color: #242729;
     font-size: 18px;
+    padding: 2%;
+    margin-bottom: 2px;
 }
 
 .post-answer{
@@ -17,4 +19,13 @@ label{
     width: 100%;
     height: 226px;
     outline: none;
+}
+
+.btn {
+    background-color: #2294FB;
+    border: 0;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 15px;
+    font-size: 13px;
 }

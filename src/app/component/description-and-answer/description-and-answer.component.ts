@@ -17,4 +17,8 @@ export class DescriptionAndAnswerComponent implements OnInit {
   vote( answer , vote: number) {
     answer.vote_point += vote;
   }
+
+  addAnswer(answer) {
+  this.answers.push(answer);
+  }
 }
