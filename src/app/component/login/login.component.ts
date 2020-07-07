@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit {
    */
   processResponse() {
       // this.loginGuard.setIsAuthorized(true);
-      this.router.navigate(['/home']);
+      this.router.navigate(['/stackoverflow/questions' , 1]);
   }
 
   /**
