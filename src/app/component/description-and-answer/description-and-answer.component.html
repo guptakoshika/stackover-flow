@@ -6,7 +6,7 @@
       <div (click) = "vote(answer,-1)" class="arrow-down"></div>
     </div>
     <div>
-      <p class="text-container">{{answer.text}}</p>
+      <p class="text-container desp-and-ans-container">{{answer.text}}</p>
       <li class= "comments-container" *ngFor=" let comments of (answer.comments);  trackBy:trackBy" >
           <p class="text-container">{{comments.text}}</p>
     </li>

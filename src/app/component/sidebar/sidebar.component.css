@@ -9,11 +9,17 @@
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     line-height: 23px;
     font-size: 13px;
+    padding-top: 20px;
   }
   
 .links{
   width: 100%;
-  padding: 3%;
+  padding-bottom: 40px;
+  font-size: 13px;
+  line-height: 23px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #0c0d0e;
+  text-decoration: none;
 }
 
 /* 
@@ -21,7 +27,7 @@
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   .sidenav {
     display: none;
   }

@@ -21,15 +21,16 @@
 .big-screens{
   padding-left: 15%;
 }
-.btn {
-  background: #fafafb;
+.link {
   color: #555;
-  border: 0;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 20px;
 }
   
 .logout-btn {
   margin-top: 1%;
-  margin-right : 2%;
+  margin-right: 13%;
   border: none;
   background-color: #2294FB;
   border: none;

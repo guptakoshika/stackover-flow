@@ -1,6 +1,10 @@
 .container{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+.desp-and-ans-container{
     padding-bottom: 2%;
 }
 

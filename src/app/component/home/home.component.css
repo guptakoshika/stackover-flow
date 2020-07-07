@@ -1,13 +1,13 @@
 .container{
-    margin-left: 12%;
-    margin-right: 12%;
-    padding-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 80px;
     display: inline-flex;
     flex-direction: row;
 }
 
 .inner-container{ 
-    margin-left: 167px ;
+    margin-left: 180px ;
 }
 
 .question-text{
@@ -24,6 +24,7 @@
     justify-content: space-between;
     box-shadow: 0px 1px 1px #E5E5E5;
     margin-left: 3px;
+    padding-bottom: 20px;
 }
 
 .btn {
@@ -37,6 +38,7 @@
     width: 99px;
     height: 37px;
 }
+
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -49,7 +51,7 @@
     }    
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .inner-container {
       margin-left: 2%;
     }
