@@ -7,17 +7,19 @@
   z-index: 1;
   left: 0;
   box-shadow: 5px 2px 18px #E5E5E5;
+  justify-content: space-between;
+  display: flex;
+    /* padding-left: 15%;
+    padding-right: 13%;  */
 }
 
-.container{
-    justify-content: space-between;
-    display: inline-flex;
-    margin-left: 15%;
-    margin-right: 13%;
-    width: 100%;
-}
+
 .small-screens{
   display: none;
+}
+
+.big-screens{
+  padding-left: 15%;
 }
 .btn {
   background: #fafafb;

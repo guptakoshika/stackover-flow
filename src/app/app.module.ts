@@ -7,7 +7,6 @@ import { HeaderComponent } from './component/header/header.component';
 import { HomeComponent } from './component/home/home.component';
 import { SidebarComponent } from './component/sidebar/sidebar.component';
 import { EditorComponent } from './component/editor/editor.component';
-import { FooterComponent } from './component/footer/footer.component';
 import { YourAnswerComponent } from './component/your-answer/your-answer.component';
 import { DescriptionAndAnswerComponent } from './component/description-and-answer/description-and-answer.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -22,7 +21,6 @@ import { CommonModule } from '@angular/common';
     HomeComponent,
     SidebarComponent,
     EditorComponent,
-    FooterComponent,
     YourAnswerComponent,
     DescriptionAndAnswerComponent,
   ],
@@ -34,7 +32,8 @@ import { CommonModule } from '@angular/common';
     HttpClientModule
   ],
   providers: [
-    DescriptionAndAnswerComponent
+    DescriptionAndAnswerComponent,
+    SidebarComponent
   ],
   bootstrap: [AppComponent]
 })

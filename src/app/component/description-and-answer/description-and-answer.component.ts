@@ -14,10 +14,19 @@ export class DescriptionAndAnswerComponent implements OnInit {
     this.descriptionProvider.getDescription().subscribe(data => this.answers = data);
   }
 
+  /**
+   * This method is used for upvote and downvote
+   * @param answer: the answer for which vote has to update.
+   * @param vote: intial vote
+   */
   vote( answer , vote: number) {
     answer.vote_point += vote;
   }
 
+  /**
+   * this met
+   * @param answer: new answer for adding
+   */
   addAnswer(answer) {
   this.answers.push(answer);
   }

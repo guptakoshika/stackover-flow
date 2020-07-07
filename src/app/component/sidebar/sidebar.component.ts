@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class SidebarComponent implements OnInit {
 
   constructor() { }
-
+private showSidebar = false;
   ngOnInit() {
   }
 
+  showSidebarInSmallScreens(showSidebar) {
+    console.log('im in sidebar compoenent');
+    this.showSidebar = showSidebar;
+  }
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { SidebarComponent } from '../sidebar/sidebar.component';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,8 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  private showSidebarForSmallScreens = false;
+  constructor(private router: Router, private sidebar: SidebarComponent) { }
 
   ngOnInit() {
   }
@@ -17,5 +19,9 @@ export class HeaderComponent implements OnInit {
    */
   logout() {
     this.router.navigate(['/login']);
+  }
+  showSidebar() {
+    this.showSidebarForSmallScreens = !this.showSidebarForSmallScreens;
+    this.sidebar.showSidebarInSmallScreens(this.showSidebarForSmallScreens);
   }
 }
