@@ -7,7 +7,7 @@
 }
 
 .inner-container{ 
-    margin-left: 170px;
+    margin-left: 14%;
 }
 
 .question-text{
@@ -37,3 +37,28 @@
     width: 99px;
     height: 37px;
 }
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .container{
+        margin-left: 2%;
+        margin-right: 2%;
+    }    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .inner-container {
+      margin-left: 2%;
+    }
+    .question-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .btn{
+        float: right;
+    }
+  }

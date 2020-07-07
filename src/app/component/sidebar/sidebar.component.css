@@ -9,9 +9,21 @@
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     line-height: 23px;
     font-size: 13px;
+    overflow-y: auto;
   }
   
 .links{
   width: 100%;
   padding: 3%;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sidenav {
+    display: none;
+  }
 }
