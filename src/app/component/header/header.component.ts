@@ -20,6 +20,10 @@ export class HeaderComponent implements OnInit {
   logout() {
     this.router.navigate(['/login']);
   }
+
+  /**
+   * Method is used to trigger the side bar for small screens when hambuger is clicked
+   */
   showSidebar() {
     this.showSidebarForSmallScreens = !this.showSidebarForSmallScreens;
     this.sidebar.showSidebarInSmallScreens(this.showSidebarForSmallScreens);

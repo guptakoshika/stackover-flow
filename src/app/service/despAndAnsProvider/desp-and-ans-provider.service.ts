@@ -12,6 +12,9 @@ export class DespAndAnsProviderService {
 
   constructor(private http: HttpClient) { }
 
+  /**
+   * this method is used to get data from Ansers.json and send it to components.
+   */
   getDescription(): Observable<DespAndAnswerInterface[]> {
     return this.http.get<DespAndAnswerInterface[]>(this.url);
   }
